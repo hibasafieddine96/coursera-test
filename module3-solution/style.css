@@ -3,75 +3,56 @@ body{
 	font-size: 20px;
     background-color: #61122f;
 }
+.navbar{
+	background-color: lightgray;
 
-/**********Header**********/
-#header-nav{
-	background-color: yellow;
-    border-radius: 0;
-    border: 0;
-    height: 75px;
 }
 
-.navbar-brand{
-	padding-top: 5px;
-	font-weight: bold;
+.navbar-header div a{
+	text-decoration:none;
 	font-size: 1.5em;
-	margin-top: 0;
-	margin-bottom: 0;
 	text-shadow: 1px 1px 1px #222;
-	line-height: .75;
+	color: #61122f;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-  }
-  #nav-list {
-  margin-top: 10px;
+
+
+.navbar-brand a{
+	color:black;
 }
-#nav-list a {
-  color: #eee;
-  text-align: center;
-  background-color: gray;
-}
+
+
+
 #nav-list a:hover {
-  background: black;
+	background: white;
+
+}
+#nav-list li{
+	text-align: center;
+
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  background-color: #dcdcdc;
-  margin-top: -28px;
-}
-#main-content{
-	font-size: 175%;
-	color: yellow;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid black;
 }
 
-#section-title{
-	font-weight: bold;
-	color: yellow;
-	font-size: 2em;
-}
-.container{
+#main-section{
 	background-color: gray;
-	padding-top: 30px;
-	margin-top: 50px;
-	margin-right: auto;
-	padding: auto;
-}
-#text{
-	padding-left: 20px;
-	padding-right: 20px;
-}
 
+}
+#Ourmenu{
+	margin-bottom: 20px;
+	color: yellow;
+
+}
+h4{
+	color: yellow;
+	font-size: 1.5em;
+}
+#main-section p{
+	padding: 15px;
+}
 @media (max-width: 767px){
-	#main-content{
-		margin-top: 120px;
-	}
-	.container{
-		margin-left: 5%;
-		margin-right: 5%;
+	#main-section{
+		width: 90%;
 	}
 }
